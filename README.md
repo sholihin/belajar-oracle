@@ -1,5 +1,5 @@
 
-# PR Sisi 1 - PLSQL#
+# PR Sisi 1 - PLSQL #
 
 ## Tugas 1 ##
 ### Membuat tabel view dari dpptes yang kdgerakmasuk 11 dan kdgerakkeluar 23 atau 24 ###
