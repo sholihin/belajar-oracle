@@ -18,7 +18,7 @@ CREATE TABLE MAHASISWA
 );
 ```
 
-![Gambar 1.0](images/create_table.PNG)
+![Gambar 1.0](images/create_table.png)
 
 ### Insert Data Contoh ###
 ```
@@ -40,7 +40,7 @@ into MAHASISWA values ('MAM02', 'Faizal Rifqi', 'BOGOR', '1B', to_date('2022-04-
 into MAHASISWA values ('MAM03', 'Fauzi Achmad', 'JAKARTA', '1C', to_date('2022-04-14', 'yyyy-mm-dd'))
 select 1 from dual;
 ```
-![Gambar 1.1](images/insert_data.PNG)
+![Gambar 1.1](images/insert_data.png)
 
 ### Membuat tabel view dari tabel mahasiswa yang idpel MAM01 dan idpel MAM02 ###
 ```
@@ -54,7 +54,7 @@ create or replace view vw_mahasiswa_teladan
 select * from vw_mahasiswa_teladan;
 ```
 
-![Gambar 1.2](images/image1.PNG)
+![Gambar 1.2](images/image1.png)
 
 
 ###  Membuat tabel view dari mahasiswa yang idpel diantara MAM01 juta sampai MAM03 ###
@@ -69,7 +69,7 @@ create or replace view vw_range_mahasiswa
 select * from vw_range_mahasiswa
 ```
 
-![Gambar 1.3](images/image2.PNG)
+![Gambar 1.3](images/image2.png)
 
 ### Membuat tabel view dari tabel mahasiswa yang tgljoin dari tanggal 2022-04-06 sampai 2022-04-14 ###
 ```
@@ -84,7 +84,7 @@ create or replace view vw_join_mahasiswa
 select * from vw_join_mahasiswa;
 ```
 
-![Gambar 1.4](images/image3.PNG)
+![Gambar 1.4](images/image3.png)
 
 ### Membuat function perkalian ###
 ```
@@ -102,7 +102,7 @@ end;
 select func_kali(5,5) result from dual;
 ```
 
-![Gambar 1.5](images/image4.PNG)
+![Gambar 1.5](images/image4.png)
 
 ### Membuat function tanggal hari ini ###
 ```
@@ -118,7 +118,7 @@ end;
 select func_hari_ini result from dual;
 ```
 
-![Gambar 5.0](images/image5.PNG)
+![Gambar 5.0](images/image5.png)
 
 ### Membuat function konversi dari dua digit bulan ke nama bulan ###
 ```
@@ -165,4 +165,4 @@ end;
 select func_konversi_bulan(03) result from dual;
 ```
 
-![Gambar 6.0](images/image6.PNG)
+![Gambar 6.0](images/image6.png)
